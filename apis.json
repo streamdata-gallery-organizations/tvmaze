@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - TVmaze",
+	"description": "This is a repository of tvmaze APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/tvmaze.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://tvmaze.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "TVmaze",
+			"x-api-slug": "tvmaze",
+			"description": "Founded in 2014, TVmaze is the leading tv meta-data provider on the web. Serving hundreds of apps and services accoss the web. Providing management tools for users to keep track of their favorite shows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png",
+			"humanURL": "http://www.tvmaze.com",
+			"baseURL": "https://api.tvmaze.com//v1",
+			"tags": "TVmaze",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/tvmaze/master/_listings/tvmaze/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "TVmaze",
+	"include": [
+		{
+			"name": "TVmaze",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/tvmaze/master/_listings/tvmaze/apis.yaml"
+		}
+	]
+}
